@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+     <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body class="bg-[#0a192f]">
+      <div class="header-container fixed w-full bg-[#0a192f]">
+      <header
+        class="max-w-[1280px] m-auto flex justify-between items-center py-[15px]"
+      >
+        <span id="logo" class="text-amber-50 fira text-[20px] pl-[10px]"
+          >Mirshohid</span
+        >
+        <nav class="nav" id="nav">
+          <button id="X" class="hidden max-[765px]:block">
+            <i class="bx bx-x text-amber-50 text-[35px]"></i>
+          </button>
+          <ul class="flex items-center gap-[25px]">
+            <li>
+              <a href="#abaut" class="text-amber-50 urbanist text-[15px]"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="#salom" class="text-amber-50 urbanist text-[15px]"
+                >Experience
+              </a>
+            </li>
+            <li>
+              <a href="#work" class="text-amber-50 urbanist text-[15px]"
+                >Work
+              </a>
+            </li>
+            <li>
+              <a href="#contact" class="text-amber-50 urbanist text-[15px]"
+                >Contact
+              </a>
+            </li>
+            <button
+              class="border-blue-500 border-[2px] rounded-[6px] text-amber-50 py-[6px] px-[10px]"
+            >
+              Resume
+            </button>
+          </ul>
+        </nav>
+        <button class="hidden max-[765px]:block" id="burgerbtn">
+          <i class="bx bx-menu text-amber-50 text-[35px]"></i>
+        </button>
+      </header>
+    </div>
+    <h1>Contact</h1>
+    <form class="form-container pt-[80px] max-w-[868px] m-auto max-[768px]:px-[10px]">
+      <div class="row flex items-center">
+        <input type="text" id="name" placeholder="ism kirit"/>
+        <input type="text" id="surname" placeholder="Familiya kirit"/>
+
+      </div>
+      <input type="text" id="email" placeholder="mail kirit">
+      <textarea name="message" id="message" placeholder="message kirit"></textarea>
+      <button id="sendBtn">Send</button>
+    </form>
+    <script src="/app.js"></script>
+  </body>
+</html>
+  

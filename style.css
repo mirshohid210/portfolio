@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@import url(https://fonts.googleapis.com/css?family=Urbanist:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Code:300,regular,500,600,700);
+
+.urbanist {
+  font-family: "Urbanist";
+}
+.fira {
+  font-family: "Fira Code";
+}
+@media (max-width: 765px) {
+  .nav {
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #13132d90;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    transform: translateX(-50000px);
+    transition: 0.8s ease-in-out;
+  }
+  header > nav > ul {
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+  }
+  .chaqiruv {
+    transform: translateX(0px);
+    transition: 0.4s ease-in-out;
+  }
+  #X {
+    right: 0 !important;
+    position: absolute;
+    top: 15px;
+  }
+}
+* {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: aqua;
+  border-radius: 25px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: aquamarine;
+}
+
+.form.container input{
+  width: 100%;
+  background: transparent;
+  border: 1px solid #ffffff90;
+  outline: none;
+  color: white;
+}
+
+.form.container textarea {
+  width: 100%;
+  background: transparent;
+   border: 1px solid #ffffff90;
+  outline: none;
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
+
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: ;
+
+}
+.row {
+  gap: 15px;
+}
+#sendBtn {
+  background-color: blue;
+  padding: 0px 14px;
+  color: white;
+  font-family: "Urtbanist";
+  width: 250px;
+}
